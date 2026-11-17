@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0b0f14" />
+    <title>CodeWerkstatt</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <button id="menu" class="menu">☰</button>
+
+      <a href="#/" class="brand"> <span>&gt;_</span> CodeWerkstatt </a>
+
+      <nav>
+        <a href="#/lernen">Lernen</a>
+        <a href="#/uebungen">Übungen</a>
+        <a href="#/projekte">Projekte</a>
+      </nav>
+
+      <div class="top-actions">
+        <a href="#/fortschritt">Fortschritt</a>
+        <a href="#/einstellungen" aria-label="Einstellungen">⚙</a>
+      </div>
+    </header>
+
+    <aside id="sidebar" class="sidebar">
+      <div class="nav-label">LERNBEREICHE</div>
+      <a href="#/lernen/html">HTML</a>
+      <a href="#/lernen/css">CSS</a>
+      <a href="#/lernen/javascript">JavaScript</a>
+
+      <div class="nav-label space">WERKSTATT</div>
+      <a href="#/uebungen">▦ Übungen</a>
+      <a href="#/projekte">▱ Projekte</a>
+      <a href="#/fortschritt">↗ Fortschritt</a>
+      <a href="#/einstellungen">⚙ Einstellungen</a>
+    </aside>
+
+    <main id="app" class="main"></main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
